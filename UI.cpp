@@ -3,7 +3,7 @@
 UI::UI() {
 
 	// Load fonts
-	if (!font.loadFromFile("resources/antology/Antology.ttf")) {
+	if (!font.loadFromFile("resources/fonts/Sanseriffic.otf")) {
 		std::cout << "Error loading font\n";
 	}
 	text.setFont(font);

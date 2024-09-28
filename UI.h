@@ -5,7 +5,7 @@ class UI : public sf::Drawable {
 private:
 	sf::Font font;
 	sf::Text text;
-	int jaqueTime;
+	int jaqueTime = 0;
 public:
 	UI();
 	void Update(bool);
